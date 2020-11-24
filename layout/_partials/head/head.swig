@@ -29,6 +29,11 @@
 {%- if theme.google_site_verification %}
   <meta name="google-site-verification" content="{{ theme.google_site_verification }}">
 {%- endif %}
+
+{%- if theme.google_ads %}
+  <script data-ad-client="ca-pub-9981863315764149" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{%- endif %}
+
 {%- if theme.bing_site_verification %}
   <meta name="msvalidate.01" content="{{ theme.bing_site_verification }}">
 {%- endif %}
